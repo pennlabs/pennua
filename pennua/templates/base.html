@@ -3,6 +3,7 @@
 <html>
   <head>
     <title>{% block title %}Penn UA{% endblock title %}</title>
+    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/img/favicon.png"/>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -72,6 +73,16 @@
     {% endblock content %}
     </div>
     <!-- Footer -->
+
+      <div class="footer-text">
+        &copy; 2014 University of Pennsylvania Undergraduate Assembly
+        <br>
+        Designed by <a href='http://derekjobst.com'>Derek Jobst</a> and <a>Jake Noonan<a/>
+      </div>
+
+      <div id="pennlabs">
+        <a href="http://pennlabs.org"><img src='{{STATIC_URL}}/img/pennlabs_footer.png' width="150px"></a>
+      </div>
 
     </div>
 
