@@ -152,8 +152,8 @@ div.nav-col{
 }
 
 
-.body-slider{
-
+.body > div{
+		margin-top: -20px;
 }
 
 .body-slider{
@@ -165,10 +165,17 @@ div.nav-col{
 		width: 100%;
 }
 
-.body-plaintext{
+.body>div:not(.body-slider){
 	background-color: #fff;
 }
 
+.body > div > p{
+	padding: 0px 20px;
+}
+
+.body > div > h1{
+	padding: 0px 20px;
+}
 
 /* Footer */
 
