@@ -111,6 +111,8 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'pennua', 'templates'),
 )
 
+# Note: Make sure to load custom plugins before 'pennua'
+
 INSTALLED_APPS = (
     'djangocms_admin_style',
     'djangocms_text_ckeditor',
@@ -135,10 +137,11 @@ INSTALLED_APPS = (
     'djangocms_inherit',
     'djangocms_link',
     'djangocms_picture',
+    'picture2',
     'djangocms_teaser',
     'djangocms_video',
     'reversion',
-    'pennua'
+    'pennua',
 )
 
 LANGUAGES = (

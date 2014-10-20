@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 {% load cms_tags staticfiles sekizai_tags menu_tags %}
 
-{% block content %}
-<div class="main_image">
+{% block feature %}
+<div class='content'>
   {% placeholder "feature" %}
 </div>
-<div>
-  {% placeholder "content" %}
-</div>
-{% endblock content %}
+{% endblock feature %}
+
+{% block body %}
+<div class='content'>
+  {% placeholder "body" %}
+ </div>
+{% endblock body %}

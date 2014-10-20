@@ -124,20 +124,38 @@ div.nav-col{
 }
 
 
+/* Feature */
+
+.feature{
+	margin-top: -40px;
+	margin-bottom: -40px;
+}
+
+.feature img{
+	width: 100%;
+}
+
+
 /* Body */
 
-
-.body{
-	padding: 0px 8%;
-	margin-top: -40px;
+.content{
+	margin: 0px 8%;
 }
 
 @media (max-width: 767px) {
 
-	.body{
-		padding: 0px;
-		margin-top: 0px;
+	.content{
+		margin: 0px;
 	}
+}
+
+.body{
+		margin-top: 40px;
+}
+
+.body > .content{
+	background-color: #eee;
+	padding: 10px 5%;
 }
 
 .nav.navbar-nav{
@@ -152,30 +170,20 @@ div.nav-col{
 }
 
 
-.body > div{
-		margin-top: -20px;
+/* Body Font Styles */
+
+h1{
+	padding-top: 10px;
+  font-family: 'Crimson Text', serif;
+  font-size: 3em;
 }
 
-.body-slider{
-		margin-top: -18px;
-		background-image: url("../img/quaker.jpg");
-		background-size: cover;
-		background-position: center center;
-		height: 460px;
-		width: 100%;
+p{
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 10px;
+	font-size: 1em;1
 }
 
-.body>div:not(.body-slider){
-	background-color: #fff;
-}
-
-.body > div > p{
-	padding: 0px 20px;
-}
-
-.body > div > h1{
-	padding: 0px 20px;
-}
 
 /* Footer */
 
@@ -210,10 +218,5 @@ div.nav-col{
 	margin: 10px auto 50px auto;
 }
 
-/* Feature */
-
-.main_image img {
-	width: 100%;
-}
 
 
