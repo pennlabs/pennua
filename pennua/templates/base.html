@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600|Crimson+Text' rel='stylesheet' type='text/css'>
-
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600|Crimson+Text|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
     {% cms_toolbar %}
@@ -77,8 +76,9 @@
 
     <!-- Body Content -->
     <div class="body">
-    {% block body %}
-    {% endblock body %}
+      {% block body %}
+      {% endblock body %}
+      <div class='body-base'></div>
     </div>
     <!-- Footer -->
 

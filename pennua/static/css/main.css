@@ -154,7 +154,13 @@ div.nav-col{
 }
 
 .body > .content{
-	background-color: #eee;
+	background-color: #ffffff;
+	background-image: -webkit-gradient(radial, 50% 50%,200,50% 50%,20, from(rgb(228, 228, 228)), to(rgb(255, 255, 255)));
+	background-image: -webkit-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(228, 228, 228));
+	background-image: -moz-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(228, 228, 228));
+	background-image: -ms-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(228, 228, 228));
+	background-image: radial-gradient(50% 50%, rgb(255, 255, 255), rgb(228, 228, 228));
+
 	padding: 10px 5%;
 }
 
@@ -173,23 +179,40 @@ div.nav-col{
 /* Body Font Styles */
 
 h1{
-	padding-top: 10px;
   font-family: 'Crimson Text', serif;
   font-size: 3em;
+  color: #01246E;
+  margin-bottom: 5px;
 }
 
 h2{
-	padding-top: 10px;
   font-family: 'Crimson Text', serif;
   font-size: 2em;
+  color: #01246E;
+}
+
+h3{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5em;
+	color: #FB1629;
 }
 
 p{
+	margin-top: 10px;
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 10px;
 	font-size: 1em;1
 }
 
+
+.body-base{
+	width: 84%;
+	margin: 0px 8%;
+	height: 4px;
+	background-color: #bbbbbb;
+}
 
 /* Footer */
 
