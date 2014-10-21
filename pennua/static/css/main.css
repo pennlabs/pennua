@@ -178,6 +178,12 @@ h1{
   font-size: 3em;
 }
 
+h2{
+	padding-top: 10px;
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 10px;
