@@ -45,13 +45,6 @@ nav.navbar{
 	background-color: #bbbbbb;
 }
 
-.dropdown:hover:before{
-	content: "hello";
-	background-color: #bbbbbb;
-	height: 10px;
-	margin-top: -10px;
-}
-
 .dropdown:before{
 	content: "";
 }
