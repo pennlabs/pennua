@@ -241,6 +241,16 @@ h3{
 	font-weight: 300;
 }
 
+h4{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	color: #FB1629;
+	font-weight: 300;
+	font-style: italic;
+}
+
 p{
 	margin-top: 10px;
 	font-family: 'Open Sans', sans-serif;
