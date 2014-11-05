@@ -43,7 +43,7 @@ nav.navbar{
 
 .navbar-collapse{
 	z-index: 100;
-	
+
 }
 
 .dropdown:hover{
@@ -155,7 +155,7 @@ div.nav-col{
 .feature img{
 	width: 100%;
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-	margin-bottom: -6px;	
+	margin-bottom: -6px;
 
 }
 
@@ -207,7 +207,7 @@ div.nav-col{
 	padding: 10px 5%;
 	z-index: 10;
 	border-top: 1px solid #FFFFFF;
-	
+
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
 	margin-bottom: -6px;
 }
@@ -382,7 +382,7 @@ ol{
 
 .content a:hover{
 	color: #FFFFFF;
-	background-color: #FB1629; 
+	background-color: #FB1629;
 	border:1px solid #FB1629;
 	border-radius: 2px;
 	padding: 0px 4px 0px 4px;
@@ -430,10 +430,20 @@ body.ss-base-body{
 
 }
 
+.footer-links{
+	width: 104px;
+	margin: 10px auto;
+}
+
+.footer-links>a>img{
+	margin: 5px;
+}
+
+
 .footer-text{
 	color: #fff;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 30px;
 	font-size: 10px;
 }
 
